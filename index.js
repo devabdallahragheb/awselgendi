@@ -5,13 +5,13 @@ const port = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('“I am a server two"');
+  res.send('“I am a server one"');
 });
 
  
 
 app.get('/health', (req, res) => {
-    res.status(200).send('deon');
+    res.status(200).send('done');
   });
   
    
